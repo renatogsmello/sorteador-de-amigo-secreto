@@ -3,7 +3,7 @@
 exports[`A página de configuração Deve ser renderizada corretamente 1`] = `
 <div>
   <div
-    class="bg-[#FFF9EB] border-2 border-black border-t-[64px] box-border p-20 flex flex-1 -mt-8 justify-center"
+    class="bg-[#FFF9EB] border-2 border-black rounded-t-[64px] box-border p-20 flex flex-1 -mt-8 justify-center"
   >
     <section>
       <h2>
