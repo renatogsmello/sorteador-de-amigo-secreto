@@ -14,13 +14,13 @@ exports[`A página de configuração Deve ser renderizada corretamente 1`] = `
           class="mb-8"
         >
           <input
-            class=" rounded-s-[45px] h-[82px] w-2/3 box-border pl-8 text-xl border-2 border-black shadow-[0_2px_0_1px_rbg(0,0,0)] focus:outline-none md:w-full md:block md:rounded-[45px] md:mb-5"
+            class=" rounded-s-[45px] h-[82px] w-2/3 box-border pl-8 text-xl border-2 border-black shadow-[0_2px_0_1px_rbg(0,0,0)] focus:outline-none"
             placeholder="Insira os nomes dos participantes"
             type="text"
             value=""
           />
           <button
-            class="rounded-e-[45px] h-[82px] w-1/3 box-border border-2 border-black text-xl text-black shadow-[2px_2px_0_1px_rbg(0,0,0)] cursor-pointer bg-[#c4c4c4] hover:opacity-80 disabled:opacity-60 disabled:cursor-not-allowed md:block md:mt-4 md:m-auto md:w-[220px] md:rounded-[45px]"
+            class="rounded-e-[45px] h-[82px] w-1/3 box-border border-2 border-black text-xl text-black shadow-[2px_2px_0_1px_rbg(0,0,0)] cursor-pointer bg-[#c4c4c4] hover:opacity-80 disabled:opacity-60 disabled:cursor-not-allowed "
             disabled=""
           >
             Adicionar
@@ -33,7 +33,7 @@ exports[`A página de configuração Deve ser renderizada corretamente 1`] = `
         class="flex items-center justify-between md:flex-col"
       >
         <button
-          class="w-[350px] height-[80px] text-xl shadow-[2px_2px_0_1px_rgb(0,0,0)] rounded-[45px] bg-[#fe652b] text-white cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed hover:bg-[#4b69fd] md:w-[220px] md:my-8"
+          class="w-[350px] height-[80px] text-xl shadow-[2px_2px_0_1px_rgb(0,0,0)] rounded-[45px] bg-[#fe652b] text-white cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed hover:bg-[#4b69fd] py-8"
           disabled=""
         >
           Iniciar a brincadeira

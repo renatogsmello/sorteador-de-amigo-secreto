@@ -18,7 +18,7 @@ export default function Rodape() {
       <button
         disabled={participantes.length < 3}
         onClick={iniciar}
-        className="w-[350px] height-[80px] text-xl shadow-[2px_2px_0_1px_rgb(0,0,0)] rounded-[45px] bg-[#fe652b] text-white cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed hover:bg-[#4b69fd] md:w-[220px] md:my-8"
+        className="w-[350px] height-[80px] text-xl shadow-[2px_2px_0_1px_rgb(0,0,0)] rounded-[45px] bg-[#fe652b] text-white cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed hover:bg-[#4b69fd] py-8"
       >
         Iniciar a brincadeira
       </button>
