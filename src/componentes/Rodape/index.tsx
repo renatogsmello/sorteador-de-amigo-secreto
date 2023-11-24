@@ -1,12 +1,17 @@
 import { useNavigate } from "react-router-dom";
 import { useListaParticipantes } from "../../state/hooks/useListaParticipantes";
+import { useSorteador } from "../../state/hooks/useSorteador";
 
 export default function Rodape() {
   const participantes = useListaParticipantes();
 
   const navegaPara = useNavigate();
+
+  const sortear = useSorteador();
+
   const iniciar = () => {
     navegaPara("/sorteio");
+    sortear();
   };
   return (
     <footer className="flex items-center justify-between md:flex-col">
